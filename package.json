@@ -1,0 +1,28 @@
+{
+  "name": "nextcov",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^2.4.3",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "devDependencies": {
+    "jest": "^20.0.4"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "pages/**/*.js"
+    ],
+    "transformIgnorePatterns": [
+      "/node_modules/"
+    ],
+    "testEnvironment": "node"
+  }
+}
