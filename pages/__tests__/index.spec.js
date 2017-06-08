@@ -1,3 +1,5 @@
-it('1', () => {
-    expect(1).toBe(1);
-})
+const index = require('../index').default;
+
+it('index', () => {
+    expect(index).toBeDefined();
+});
